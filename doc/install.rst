@@ -155,3 +155,12 @@ If you installed GMT using conda and the instructions above, place the following
 
 You should change ``$HOME/anaconda3`` to wherever you installed Anaconda (this is the
 default for Linux).
+
+Tips
+----
+
+If you do ``conda list`` inside the gmt-python environment you should see most of the packages come from ``conda-forge``
+
+If one or two libraries (e.g. libgdal)  don't come from conda-forge then try;
+
+``conda install -c conda-forge libgdal``
